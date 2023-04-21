@@ -1,13 +1,7 @@
 # 環境設定
-このプログラムを実行するためには、以下のライブラリが必要です。
-
-- beautifulsoup4
-- requests
-
-これらのライブラリをインストールするには、以下のコマンドを実行してください。
 
 ```
-pip install beautifulsoup4 requests
+pip install -r requirements.txt
 ```
 
 ## 実行方法
@@ -24,7 +18,7 @@ python main.py "atsuko_(blue_archive)"
 [INFO] 2個目の画像(*****.png)をダウンロードしました。
 ```
 
-ダウンロードが完了したら、以下のようなメッセージが表示されます
+ダウンロードが完了したら、以下のようなメッセージが表示されます。
 
 ```
 [INFO] 全***個の画像をダウンロードしました。
